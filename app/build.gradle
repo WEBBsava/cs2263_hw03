@@ -9,12 +9,15 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
+    id "com.github.hierynomus.license" version "0.15.0"
     id "com.github.hierynomus.license-base" version "0.16.1"
     id 'org.openjfx.javafxplugin' version '0.0.10'
 }
 
 license {
     header = project.file('LICENSE')
+    ext.year = Calendar.getInstance().get(Calendar.YEAR)
+    ext.name = 'Savannah Webb'
 }
 
 repositories {

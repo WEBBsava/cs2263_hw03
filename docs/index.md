@@ -17,7 +17,7 @@ saving, loading, and exiting (_Navigation_), and a way to list courses (_ListCou
 
 ### Simple UI Diagram
 
-<img alt="UI Diagram" src="D:\cs2263_hw03\docs\images\Simple UI.png" title="Simple UI Diagram"/>
+<img alt="UI Diagram" src="D:\cs2263_hw03\docs\images\SimpleUI.png" title="Simple UI Diagram"/>
 
 The UI diagram shows what the user interface can look like. It shows the main UI with options to access courses, 
 view all courses, save a course list, load a course list, and exit. The window below it shows a popup for when the user
