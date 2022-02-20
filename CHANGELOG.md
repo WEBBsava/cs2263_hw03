@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - the plugin for license management.
 - JavaFX plugin and set up the application to work with it.
 - Gson dependency so that data can be serialized to JSON as needed.
+## Changed
+- index.md to show the class and UI diagrams with descriptions.
 
 ## [0.0.1] - 2022-14-02
 ### Added
