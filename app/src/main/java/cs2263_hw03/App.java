@@ -46,7 +46,10 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Locale;
 
-
+/**
+ * Not needed class
+ * @author Savannah Webb
+ */
 public class App {
-    // Not sure how to safely delete app so it's just here so the whole thing doesn't break.
+    // Not sure how to safely delete app, so it's just here so the whole thing doesn't break.
 }

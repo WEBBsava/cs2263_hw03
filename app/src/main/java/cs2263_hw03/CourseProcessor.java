@@ -210,7 +210,10 @@ public class CourseProcessor extends Application {
     }
 
 
-
+    /**
+     * Launches the application.
+     * @param args the arguments given by the user
+     */
     public static void main(String[] args) {
         Application.launch(args);
     }

@@ -37,6 +37,14 @@ public class Course {
     private String courseNumber;
     private String courseCredits;
 
+    /**
+     * Accepts data given from CourseProcessor and returns the information.
+     * @param department the department chosen by the user
+     * @param deptCode automatically inputted by using courseCode
+     * @param courseName the name the user entered
+     * @param courseNumber the course number the user entered
+     * @param courseCredits the number of credits the user entered
+     */
     public Course(String department, String deptCode, String courseName, String courseNumber, String courseCredits) {
         this.department = department;
         this.deptCode = deptCode;
@@ -45,26 +53,10 @@ public class Course {
         this.courseCredits = courseCredits;
     }
 
-    public String getDepartment() {
-        return department;
-    }
-
-    public String getDeptCode() {
-        return deptCode;
-    }
-
-    public String getCourseName() {
-        return courseName;
-    }
-
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
-    public String getCourseCredits() {
-        return courseCredits;
-    }
-
+    /**
+     * ArrayList of all the departments for the combobox
+     * @return the available departments
+     */
     public static String[] getDepartmentsArray() {
         String[] departments = {"Biology", "Chemistry", "Computer Science",
                 "Electrical Engineering", "Mathematics", "Physics"};
@@ -72,20 +64,11 @@ public class Course {
         return departments;
     }
 
-
-    public static String[] courseDept() {
-        String[] deptArray;
-        deptArray = new String[6];
-        deptArray[0] = "CS";
-        deptArray[1] = "MATH";
-        deptArray[2] = "CHEM";
-        deptArray[3] = "PHYS";
-        deptArray[4] = "BIOL";
-        deptArray[5] = "EE";
-
-        return deptArray;
-    }
-
+    /**
+     * Matches the course department selected to its course code
+     * @param deptCode the department given by the user
+     * @return the appropriate code for the department given
+     */
     public static String courseCode(String deptCode) {
         String course;
         if (Objects.equals(deptCode, "Computer Science")) {
@@ -106,6 +89,4 @@ public class Course {
 
         return course;
     }
-
-
 }
