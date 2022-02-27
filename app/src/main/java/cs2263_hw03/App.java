@@ -27,24 +27,26 @@
 package cs2263_hw03;
 
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.event.EventHandler;
+import javafx.geometry.Pos;
+import javafx.scene.control.*;
+import javafx.geometry.Insets;
+import javafx.scene.Scene;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.HBox;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import javafx.scene.control.TableView;
+import javafx.scene.layout.VBox;
 
-public class App extends Application {
-    @Override
-    public void start(Stage stage) {
-        stage.setTitle("First JavaFX Application");
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Locale;
 
-        stage.show();
-    }
 
-    /*public String getGreeting() {
-        return "Hello World!";
-    }
-
-     */
-
-    public static void main(String[] args) {
-        Application.launch(args);
-        //System.out.println(new App().getGreeting());
-    }
+public class App {
+    // Not sure how to safely delete app so it's just here so the whole thing doesn't break.
 }

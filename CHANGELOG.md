@@ -11,8 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - the plugin for license management.
 - JavaFX plugin and set up the application to work with it.
 - Gson dependency so that data can be serialized to JSON as needed.
+- Course.java to hold course information for CourseProcessor
+- CourseProcessor.java to accept the data given and turn it into a table. 
+- course-finder.java to show what a saved file looks like from the application
 ## Changed
 - index.md to show the class and UI diagrams with descriptions.
+- README so that it is current with the classes
 
 ## [0.0.1] - 2022-14-02
 ### Added
