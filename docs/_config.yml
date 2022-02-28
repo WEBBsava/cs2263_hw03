@@ -1,3 +1,2 @@
 theme: jekyll-theme-cayman
-source: /docs/index.md
-include: [/docs/images]
+source: /docs
