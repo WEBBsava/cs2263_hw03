@@ -32,9 +32,9 @@ out/
 ##############################
 ## Keep Images
 ##############################
-!../cs2263_hw03/CourseFinder.jpg
-!../docs/images/ClassDiagram.png
-!../docs/images/ClassDiagram.png
+../cs2263_hw03/CourseFinder.jpg
+../docs/images/ClassDiagram.png
+../docs/images/ClassDiagram.png
 
 
 
