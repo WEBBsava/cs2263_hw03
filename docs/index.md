@@ -8,7 +8,7 @@ Small UI application using JavaFx that stores information about courses offered 
 
 ### Class Diagram
 
-![Class Diagram](..\docs\images\ClassDiagram.png)
+![Class Diagram](https://github.com/WEBBsava/cs2263_hw03/blob/f74c1f5195c6595311e8d6abb620d72b5890752c/docs/images/ClassDiagram.png)
 
 The class diagram for this application shows the two main classes and how the user can use the application. The two 
 classes are: _CourseProcessor_ which contains the UI interface and _Course_ which stores information about a single 
@@ -17,7 +17,7 @@ saving, loading, and exiting (_Navigation_), and a way to list courses (_ListCou
 
 ### Simple UI Diagram
 
-![Simple UI Diagram](..\docs\images\SimpleUI.png)
+![Simple UI Diagram](https://github.com/WEBBsava/cs2263_hw03/blob/f74c1f5195c6595311e8d6abb620d72b5890752c/docs/images/SimpleUI.png)
 
 The UI diagram shows what the user interface can look like. It shows the main UI with options to access courses, 
 view all courses, save a course list, load a course list, and exit. The window below it shows a popup for when the user
