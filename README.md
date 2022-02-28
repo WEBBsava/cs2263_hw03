@@ -20,7 +20,7 @@ gradle run
 <p> Then a new window should pop up with the application as shown below:</p>
 
 
-![Course Finder Window](..\cs2263_hw03\CourseFinder.jpg "Course Finder Window")
+![Course Finder Window](\cs2263_hw03\CourseFinder.jpg "Course Finder Window")
 
 <p> Then simply enter all the information needed and press enter. The data will show up in the table and can be saved.</p>
 
